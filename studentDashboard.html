@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #4a0a0c;
+            color: yellow;
+            padding: 20px;
+            text-align: center;
+        }
+        .dashboard-container {
+            display: flex;
+            margin: 20px;
+            justify-content: space-between;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #2c3e50;
+            padding: 15px;
+            color: white;
+            height: 100vh;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 10px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            width: 75%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .main-content h2 {
+            margin-bottom: 20px;
+        }
+        .achievement-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+        .achievement-card h3 {
+            margin-top: 0;
+        }
+        .achievement-card p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>MY ACHIEVEMENTS</h1>
+        <p>Welcome, [SHRUTI GAJANAN TAYDE]</p>
+    </div>
+
+    <div class="dashboard-container">
+        <!-- Sidebar Section -->
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="main-content">
+            <h2>Student Achievements</h2>
+
+            
+            <div class="achievement-card">
+                <h3>Top Scorer in Web Technology</h3>
+                <p><strong>Date:</strong> August 2024</p>
+                <p><strong>Description:</strong>Secured Distinstion A+</p>
+            </div>
+
+            
+            <div class="achievement-card">
+                <h3>Top Scorer in Data Structure</h3>
+                <p><strong>Date:</strong> Augush 2024</p>
+                <p><strong>Description:</strong> Secured Distinstion A+ </p>
+            </div>
+               
+             <div class="achievement-card">
+                <h3>Top Scorer in Computer Networking</h3>
+                <p><strong>Date:</strong> Augush 2024</p>
+                <p><strong>Description:</Good> Secured Distinstion B</p>
+            </div>
+
+             <div class="achievement-card">
+                <h3>Top Scorer in DBMS-II</h3>
+                <p><strong>Date:</strong> Augush 2024</p>
+                <p><strong>Description:</Very Good> Secured Distinstion B+</p>
+            </div>
+
+              <div class="achievement-card">
+                <h3>Top Scorer in ENGLISH</h3>
+                <p><strong>Date:</strong> Augush 2024</p>
+                <p><strong>Description:</Very Good> Secured Distinstion A</p>
+            </div>
+         
+            <div class="achievement-card">
+                <h3>Best Attendance Award</h3>
+                <p><strong>Date:</strong> August 2024</p>
+                <p><strong>Description:</strong> Maintaining a perfect attendance record throughout the academic year.</p>
+            </div>
+
+            
+            <div class="achievement-card">
+                <h3>Volunteer of the Year</h3>
+                <p><strong>Date:</strong> December 2024</p>
+                <p><strong>Description:</strong> Dedicated service as a volunteer in multiple college programs</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
