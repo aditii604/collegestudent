@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<body background="C:\Users\91986\Downloads\A.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Details Form</title>
@@ -9,19 +8,31 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
-            /* Adding the background image */
-             
-            background-size: cover; 
-            background-repeat: no-repeat;
-            background-position: center center; 
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: right;
+            align-items: right;
         }
+
+        .background-container {
+            background-image: url("https://ik.imagekit.io/mepl/wp-content/uploads/2022/11/University-of-Oxford-01.png");
+            background-size: cover;
+            background-position: center;
+            width: 100vw; /* Full-screen width */
+            height: 100vh; /* Full-screen height */
+            position: absolute; /* Covers the entire background */
+            top: 0;
+            left: 0;
+        }
+          
         .form-container {
             background-color: white;
-            padding: 40px;
+            padding: 50px;
             border-radius: 8px;
-            max-width: 500px;
+            max-width: 300px;
             margin: auto;
+            position: right;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             opacity: 0.9; /* Adds slight transparency to the form */
         }
@@ -45,14 +56,11 @@
         .submit-btn {
             background-color: #28a745;
             color: white;
-            padding: 20px 17px;
+            padding: 17px 20px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             width: 100%;
-        }
-        .submit-btn:hover {
-            background-color: #218838;
         }
         .login-link {
             text-align: center;
@@ -80,7 +88,7 @@
     </style>
 </head>
 <body>
-
+<div class="background-container">
     <div class="form-container">
         <h2>Personal Details</h2>
         <form action="Coursces.html" method="POST">
